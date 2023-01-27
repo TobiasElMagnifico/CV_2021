@@ -1,0 +1,257 @@
+header {
+    width: 80%;
+    height: 100px;
+    background-color: black;
+    margin-bottom: 35px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1, h2 {
+    font-size: 60px;
+    color: goldenrod;
+    font-family:sans-serif;
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;   
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    color: goldenrod;
+}
+
+.colorh3secundario {
+    background-color: goldenrod;
+    font-family:fantasy;
+    font-size: 250%;
+    padding: 20px;
+}
+
+h4  {
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+}
+
+div {
+    width: 80%;
+    height: 250px;
+    background-color:goldenrod;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
+}
+
+div h3 {
+    padding-left: 10px;
+    padding-top: 20px; 
+    color: black;
+}
+
+div h3:hover {
+    background-color: goldenrod;
+} 
+
+div ul {
+    display: flex;
+    flex-direction: column;
+    padding-left: 4%;
+}
+
+ul {
+    list-style-type:square;
+}
+
+.liCualificaciones {
+    margin: 5%;
+    font-family:sans-serif;
+    font-size: 2em;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: goldenrod;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto; 
+    padding:0.5%;
+   
+}
+
+nav h3 {
+    font-size: 140%;
+    color: goldenrod;
+    background-color: black;
+    padding: 20px;
+    margin: 1%;
+
+    
+}
+
+
+.flexcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flexcontainer2 {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content:space-around;
+   
+}
+
+.art1 {
+    flex-grow:1;
+}
+
+.art2 {
+    flex-grow:1;
+}
+
+.art3 {
+    flex-grow:1;
+}
+
+.art4 {
+    flex-grow: 2;
+}
+
+
+article {
+    background-color: goldenrod;
+    width: 25%;
+    margin: 1%;
+}
+
+
+
+article ul {
+    padding-left: 20px;
+    
+}
+
+article h3 {
+    color: black;
+    background-color: goldenrod;
+    padding: 30px;
+    margin: 2%;
+}
+
+.artediq {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section {
+    background-color:black;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article img {
+    margin-left:2.5%;
+}
+
+section img {
+    padding left: 100px;
+}
+
+p {
+    padding: 10px;
+}
+
+a:link {
+    color: darkgoldenrod;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: white;
+}
+
+a:visited {
+    color: goldenrod;
+}
+
+h3:hover {
+    background-color: white;
+}
+
+article h3:hover {
+    background-color: goldenrod;
+}
+
+aside {
+    background-color: black;
+}
+
+@media screen and (max-width:600px) {
+    
+    header, div{
+        width:100%;
+    }
+    
+    nav {
+        display: block;
+    }
+    
+    nav h3 {
+        font-size: 1em;
+        padding: 3px;
+    }
+    
+    h1{
+        font-size: 200%;
+       padding-top: 30px;
+    }
+    
+    .flexcontainer{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    article{
+        width: 98%;
+    }
+    
+    .artediq{
+        margin-left: 1%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    
+    h1{
+        font-size: 200%;
+        padding-top: 30px;
+    }
+    
+    nav {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    nav h3 {
+        font-size: 0.8em;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+    
+    .flexcontainer2{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+     article{
+        width: 48%;
+    }
+}
